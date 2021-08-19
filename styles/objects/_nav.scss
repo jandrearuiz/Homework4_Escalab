@@ -57,14 +57,7 @@
   }
 
   &__img {
-    background-color: var(--c-three);
-    background-image: url(../assets/image.jpg);
-    background-repeat: no-repeat;
-    width: 100%;
-    height: 400px;
-
-    @media (min-width: $large) {
-      background-image: url(../assets/image1.jpg);
-    }
+    max-height: 400px;
+    overflow: hidden;
   }
 }
