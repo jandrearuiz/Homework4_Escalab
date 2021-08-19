@@ -1,0 +1,47 @@
+.main {
+
+  &__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 70%;
+    margin: 5% auto 0;
+
+    @media (min-width: $large) {
+      flex-direction: row-reverse;
+      width: 90%;
+      margin: 2% auto;
+    }
+  }
+
+  &__content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  &__subtitle {
+    font-family: var(--f-two);
+  }
+
+  &__description {
+    line-height: 1.5;
+  }
+
+  &__link {
+    text-decoration: none;
+    color: var(--c-five);
+    font-weight: 600;
+  }
+
+  &__img {
+    margin: 5% 2% 2% 2%;
+
+    @media (min-width: $large) {
+      margin: 2%;
+    }
+  }
+
+
+}
