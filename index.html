@@ -39,9 +39,10 @@
           <span class="nav__icon-fig"><i class="fas fa-male"></i></span>
         </div>
       </nav>
-      <div class="nav__img">
-        <img srcset="./assets/image.jpg 1024w, ./assets/image1.jpg 1400w" src="./assets/image1.jpg" alt="">
-      </div>
+      <picture class="nav__img">
+        <source srcset="./assets/image1.jpg" media="(min-width: 1024px)">
+        <img src="./assets/image.jpg" alt="">
+       </picture>
     </header>
     <main class="main__container">
       <div class="main__content">
